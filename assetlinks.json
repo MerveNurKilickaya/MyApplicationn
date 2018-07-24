@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.acer.myapplication",
+    "sha256_cert_fingerprints":
+    ["09:DF:11:8E:CF:25:9F:6C:D9:0F:BA:6F:16:18:CB:B4:77:CD:F9:AC:D7:88:27:71:8F:EC:7D:35:37:9B:BB:0E"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://sign-in.demo5362749.mockable.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.acer.myapplication",
+    "sha256_cert_fingerprints":
+    ["09:DF:11:8E:CF:25:9F:6C:D9:0F:BA:6F:16:18:CB:B4:77:CD:F9:AC:D7:88:27:71:8F:EC:7D:35:37:9B:BB:0E"]
+  }
+}]
